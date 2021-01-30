@@ -75,14 +75,6 @@ function draw() {
     if (player.isTouching(obstaclesGroup) || score === 100) {
       gameState = END;
     }
-    
-    if (score === 100 && gameState = END){
-      textSize(30);
-      fill("black");
-      stroke("black");
-      strokeWeight(4);
-      text(" YOU DID IT!", displayWidth/2.5, 90)
-    }
 
     drawSprites();
 
